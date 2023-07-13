@@ -1,6 +1,6 @@
-from particles.neutron import neutron
-from middleware.particleError import particleError
-from middleware.matrixError import matrixError
+from src.particles.neutron import neutron
+from src.middleware.particleError import particleError
+from src.middleware.matrixError import matrixError
 
 
 def cyclotron(particle, matrix):
@@ -16,4 +16,7 @@ def cyclotron(particle, matrix):
 
 if __name__ == '__main__':
     print(
-        cyclotron('n', [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]]))
+        cyclotron('n', [[1, 1, 1, 1],
+                        [1, 1, 1, 1],
+                        [1, 1, 1, 1],
+                        [1, 1, 1, 1]]))
