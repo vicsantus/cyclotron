@@ -1,6 +1,6 @@
-from src.particles.neutron import neutron
-from src.middleware.particleError import particleError
-from src.middleware.matrixError import matrixError
+from particles.neutron import neutron
+from middleware.particleError import particleError
+from middleware.matrixError import matrixError
 
 
 def cyclotron(particle, matrix):

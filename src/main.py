@@ -1,4 +1,4 @@
-from src.cyclotron import cyclotron
+from cyclotron import cyclotron
 import ast
 
 
