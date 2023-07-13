@@ -29,13 +29,12 @@ def cyclotron(particle, matrix):
     return matrix
 
 
-if __name__ == '__main__':
-
+# if __name__ == '__main__':
     # Exemplo de chamada da função cyclotron com uma matriz 6x6 e partícula 'p'
-    print(
-        cyclotron('p', [[1, 1, 1, 1, 1, 1],
-                        [1, 1, 1, 1, 1, 1],
-                        [1, 1, 1, 1, 1, 1],
-                        [1, 1, 1, 1, 1, 1],
-                        [1, 1, 1, 1, 1, 1],
-                        'qwerty']))
+    # print(
+    #     cyclotron('p', [[1, 1, 1, 1, 1, 1],
+    #                     [1, 1, 1, 1, 1, 1],
+    #                     [1, 1, 1, 1, 1, 1],
+    #                     [1, 1, 1, 1, 1, 1],
+    #                     [1, 1, 1, 1, 1, 1],
+    #                     'qwerty']))
