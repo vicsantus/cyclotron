@@ -35,7 +35,7 @@ Project installation
 ```bash
   cd src && python3 main.py
 ```
-## Technologies
+## 👨‍💻 Technologies
 
 The entire project was done in **python**, and the tests were done in **pytest**.
 
