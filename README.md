@@ -35,7 +35,13 @@ Project installation
 ```bash
   cd src && python3 main.py
 ```
+## Technologies
 
+The entire project was done in **python**, and the tests were done in **pytest**.
+
+- To install python follow the official link: https://www.python.org/downloads/
+
+#
 <br>
 <br>
 Code for love, love for code ♥️.
